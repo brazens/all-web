@@ -14,6 +14,7 @@
 }
 
 .contents{
+    margin-top: 100px;
     padding-top: 10vh;
     padding-left: 15vh;
     grid-area: contents;
@@ -59,4 +60,26 @@ pre{
     border-radius: 5px;
     background-color: #ebebeb;
     grid-area: code;
+}
+
+.patreon{
+    background-color: #f8f9fa;
+}
+
+.sponsor{
+    text-align: center;
+    font-size: 24px;
+}
+
+footer{
+    margin-top: 20vh;
+    background-color: rgb(82, 82, 82);
+}
+
+.license{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
 }
