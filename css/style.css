@@ -1,0 +1,62 @@
+.main{
+    padding-top: 10vh;
+    padding-left: 15vh;
+}
+
+.item{
+    display: grid; 
+    grid-template-columns: 2.6fr 0.6fr 0.1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "contents Bcode ."
+        ". . ."
+        ". . ."; 
+}
+
+.contents{
+    padding-top: 10vh;
+    padding-left: 15vh;
+    grid-area: contents;
+}
+.con2{
+    grid-area: con2;
+}
+
+.contents h1{
+    line-height: 10px;
+}
+
+.intro{
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.sub{
+    font-size: 20px;
+}
+
+.Bcode{
+    padding-top: 6vh;
+    padding-right: 15vh;
+    display: grid; 
+    grid-template-columns: 0.2fr 2.7fr 0.1fr; 
+    grid-template-rows: 2fr 0.3fr 2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    ". . ."
+    ". code ."
+    ". . ."; 
+  grid-area: Bcode;
+}
+
+pre{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bbcode {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    grid-area: code;
+}
