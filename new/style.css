@@ -2,7 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .hBJaMjXyxFmC{
-  margin-top: 26%;
+  margin-top: 5%;
 }
 .wENdLuVNcKKE{
   margin-left: 17px;
@@ -36,53 +36,43 @@ body{
 .gVxLJhKNTPDDW:hover{
   color: rgb(73, 73, 73);
 }
+.BvuerZMTKVny{
+  margin-top: 7%;
+  background-color: rgb(199, 199, 199);
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
-#container {
+  .container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 150px 150px;
+    grid-gap: 1rem;
+  }
+  .item {
+    padding: 0px;
+    border-radius: 5px;
+  }
+  .title {
     text-align: center;
-    color:rgb(58, 58, 58);
-    font-size:36px;
-    font-weight:bold;
-    padding-top:200px;  
-    position:fixed;
-    width:100%;
-    bottom:45%;
-    display:block;
-    line-height: 30px;
+    color: #00b0f0;
+    padding-left: 10px;
+    font-size: 24px;
+    line-height: 0px;
   }
-  
-  #flip {
-    height:50px;
-    overflow:hidden;
+
+  .con{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  
-  #flip > div > div {
-    color:#fff;
-    padding:4px 12px;
-    height:45px;
-    margin-bottom:45px;
-    display:inline-block;
-  }
-  
-  #flip div:first-child {
-    animation: show 10s linear infinite;
-  }
-  @keyframes show {
-    0% {margin-top:-270px;}
-    5% {margin-top:-180px;}
-    33% {margin-top:-180px;}
-    38% {margin-top:-90px;}
-    66% {margin-top:-90px;}
-    71% {margin-top:0px;}
-    99.99% {margin-top:0px;}
-    100% {margin-top:-270px;}
-  }
-  
-  #flip div div {
-    color:#42c58a;
-  }
-  #flip div:first-child div {
-    color:#4ec7f3;
-  }
-  #flip div:last-child div {
-    color:#71009e;
+
+  .qcmqw{
+    line-height: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    color: #00b0f0;
   }
