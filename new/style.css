@@ -125,3 +125,45 @@ body{
   border: 2px solid #02b33d;
   border-radius: 25px;
 }
+
+.support{
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%;
+}
+
+.support hr{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.btn-support-open{
+  padding: 10px;
+  color: #00b0f0;
+  font-size: 15px;
+  border: 2px solid #00b0f0;
+  border-radius: 25px;
+}
+
+.btn-support-patreon{
+  margin-left: 10px;
+  padding: 10px;
+  color: #ff3300;
+  font-size: 15px;
+  border: 2px solid #ff3300;
+  border-radius: 25px;
+}
+
+.sponsor-h{
+  line-height: 32px;
+  margin-top: 5%;
+}
+
+.sponsor-p{
+  line-height: 18px;
+  margin-bottom: 5%;
+}
+.sponsor-br{
+  margin-top: 10%;
+}
