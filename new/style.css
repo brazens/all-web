@@ -42,44 +42,86 @@ body{
   margin-left: 20%;
   margin-right: 20%;
 }
+.Tqwkg{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+.Timg-style{
+  border-radius: 50%;
+  height: 100px;
+}
+.Ttitle{
+  text-align: center;
+}
+.role{
+  text-align: center;
+}
 
-  .container {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 280px 280px 280px;
-    grid-template-rows: 150px 150px;
-    grid-gap: 1rem;
-  }
-  .item {
-    padding: 0px;
-    border-radius: 5px;
-  }
-  .title {
-    text-align: center;
-    color: #00b0f0;
-    padding-left: 10px;
-    font-size: 24px;
-    line-height: 0px;
-  }
+.container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: 150px 150px;
+  grid-gap: 1rem;
+}
+.item {
+  padding: 0px;
+  border-radius: 5px;
+}
+.title {
+  text-align: center;
+  color: #00b0f0;
+  padding-left: 10px;
+  font-size: 24px;
+  line-height: 0px;
+}
 
-  .con{
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+.con{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-  .qcmqw{
-    line-height: 0px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 42px;
-    color: #00b0f0;
-  }
+.qcmqw{
+  line-height: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+  color: #00b0f0;
+}
 
-  .aqdkq{
-    color: #00b0f0;
-  }
-  .wegkwe{
-    margin-bottom: 30px;
-  }
+.aqdkq{
+  color: #00b0f0;
+}
+.wegkwe{
+  margin-bottom: 30px;
+}
+.team{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.teamhr{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.btteamone{
+  padding: 10px;
+  color: #00b0f0;
+  font-size: 15px;
+  border: 2px solid #00b0f0;
+  border-radius: 25px;
+}
+
+.btteamtwo{
+  margin-left: 10px;
+  padding: 10px;
+  color: #02b33d;
+  font-size: 15px;
+  border: 2px solid #02b33d;
+  border-radius: 25px;
+}
