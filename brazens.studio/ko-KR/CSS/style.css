@@ -6,6 +6,7 @@ body{
     margin: 0;
 }
 
+/* about suppot */
 .about-support-con{
     margin-left: 15%;
     margin-right: 15%;
@@ -65,4 +66,50 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+@media (max-width: 600px){
+    .about-support-con{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .about .column{
+        width: 100%;
+    }
+}
+/* about appointment */
+
+.about .appointment{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #fff;
+}
+@media (max-width: 600px){
+    .about .appointment{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+.about .appointment .title{color: rgb(48, 48, 48);font-size: 32px;}
+.about .appointment .sharp{color: rgb(85, 85, 85);}
+.about .appointment .con .link{color: rgb(65, 141, 255);text-align: right;text-decoration:none;display: block;margin-top: 50px;font-size: 18px;}
+.about .appointment .con{
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+@media (max-width: 600px){
+    .about .appointment .con{
+        padding: 30px;
+    }
+}
+.about .appointment .con h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
