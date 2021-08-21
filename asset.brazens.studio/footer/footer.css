@@ -34,13 +34,14 @@ footer .con{
 .column h3{
   margin-top: 10px;
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 21px;
   color: #424242;
 }
 .language{
     margin-top: 50px;
 }
 .language a{
+    font-size: 15px;
     color: #646464;
     text-decoration:none;
     padding: 3px;
